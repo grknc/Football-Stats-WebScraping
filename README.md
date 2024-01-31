@@ -1,9 +1,13 @@
 # Premier Lig İstatistikleri Web Scraping
 
+![Proje Logosu](https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Premier_League_Logo.svg/800px-Premier_League_Logo.svg.png)
+
 ## Proje Hakkında
 Amaç: 2022-2023 Premier Lig sezonuna ait takım ve oyuncu istatistiklerinin çıkarılması.
 
 Yöntem: Python ile FBref.com'dan web scraping.
+
+Kaynak: https://fbref.com/en/comps/9/2022-2023/stats/2022-2023-Premier-League-Stats
 
 ## Kullanılan Kütüphaneler ve Araçlar
 Bu projede, web scraping işlemi için aşağıdaki Python kütüphanelerinden yararlanılmıştır:
@@ -18,6 +22,8 @@ Notebook'ta yer alan kodları çalıştırmak için gerekli Python kütüphanele
 1. Gerekli kütüphaneleri kurmak için aşağıdaki komutu terminalinizde çalıştırın:
 
 pip install -r requirements.txt
+
+
 
 
 ## Web Scraping Hakkında
@@ -74,6 +80,7 @@ Link: https://apify.com/img/web-scraping/beginners-guide-to-web-scraping.pdf
 
     https://medium.datadriveninvestor.com/introduction-to-scraping-in-python-with-beautifulsoup-and-requests-ab7b1c9bc113
 
+
 -  **BeautifulSoup Articles - Blogs**
 
     https://towardsdatascience.com/tagged/beautifulsoup
@@ -87,5 +94,26 @@ Bu kaynaklar, web scraping'in temellerini öğrenmek, Python ile web scraping ya
 Bu eğitim, web sitelerinden veri çekmeyi, bu verileri düzenleyip analiz etmeyi ve sonuçta elde edilen bilgilerle daha iyi kararlar almayı öğretir. Böylece, internetin sunduğu geniş veri kaynaklarından en iyi şekilde yararlanmayı ve rekabet avantajı kazanmayı amaçlar.
 
 https://miuul.com/web-scraping  
+
+
+## Katkıda Bulunma
+
+Bu proje, her türlü katkıya açıktır ve katkıda bulunmak isteyen herkesi teşvik eder. Katkıda bulunmak istiyorsanız, aşağıdaki adımları takip edebilirsiniz:
+
+1. Projeyi forklayın.
+2. Kendi dalınızı oluşturun (`git checkout -b ozellik/daliniz`).
+3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellikler eklendi'`).
+4. Dalınıza pushlayın (`git push origin ozellik/daliniz`).
+5. Bir pull request oluşturun.
+
+
+Her türlü katkı, projeyi daha iyi ve erişilebilir kılmak için değerlidir. Katkıda bulunmak isteyenler, öncelikle bir sorun oluşturarak veya mevcut sorunlara yorum yaparak fikirlerini ve önerilerini paylaşabilirler. Bu şekilde, projenin gelişimine yönelik topluluk içinde işbirliği ve uyum sağlanabilir.
+
+Her türlü fikir ve geri bildirime açığız.
+
+Projeye katkıda bulunan herkese şimdiden teşekkür ederiz!
+
+
+
 
 
