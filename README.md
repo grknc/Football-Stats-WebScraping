@@ -2,6 +2,7 @@
 
 ## Proje Hakkında
 Amaç: 2022-2023 Premier Lig sezonuna ait takım ve oyuncu istatistiklerinin çıkarılması.
+
 Yöntem: Python ile FBref.com'dan web scraping.
 
 ## Kullanılan Kütüphaneler ve Araçlar
@@ -21,30 +22,70 @@ pip install -r requirements.txt
 
 ## Web Scraping Hakkında
 Web scraping, web sitelerinden veri çekme işlemidir. Bu yöntem, belirli bir web sayfasındaki bilgileri otomatik olarak toplamak ve düzenlemek için kullanılır. 
-Projemizde, Python programlama dili kullanılarak FBref.com'dan Premier Lig takımlarının 2022-2023 sezonuna ait istatistiksel verileri çekiyoruz.
+
+https://python-adv-web-apps.readthedocs.io/en/latest/scraping.html
 
 
 ## Faydalı Kaynaklar
 Web scraping konusunda daha fazla bilgi edinmek isteyenler için aşağıdaki kaynaklar faydalı olabilir:
 
-BeautifulSoup Dokümantasyonu: BeautifulSoup, Python ile web scraping yapmak için en popüler kütüphanelerden biridir. Resmi dokümantasyon, kütüphanenin nasıl kullanılacağına dair temel bilgileri ve ileri düzey teknikleri içerir.
+
+**BeautifulSoup Dokümantasyonu:** BeautifulSoup, Python ile web scraping yapmak için en popüler kütüphanelerden biridir. 
 https://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
 https://tedboy.github.io/bs4_doc/
 
-Requests Kütüphanesi Dokümantasyonu: Web scraping için veri çekme işlemlerinde sıklıkla kullanılan Requests kütüphanesinin resmi dokümantasyonu, HTTP istekleri yapma yöntemleri hakkında kapsamlı bilgi sunar.
+
+**Requests Kütüphanesi Dokümantasyonu:** Web scraping için veri çekme işlemlerinde sıklıkla kullanılan Requests kütüphanesinin resmi dokümantasyonu, HTTP istekleri yapma yöntemleri hakkında kapsamlı bilgi sunar.
+
 https://requests.readthedocs.io/en/latest/
 
 
-Scrapy Kütüphanesi: Daha büyük ve karmaşık web scraping projeleri için Scrapy, güçlü bir çerçeve sunar. Resmi dokümantasyon, Scrapy ile nasıl etkili bir şekilde çalışılacağını anlatır.
+**Scrapy Kütüphanesi:** Daha büyük ve karmaşık web scraping projeleri için Scrapy, güçlü bir çerçeve sunar.
+
 https://scrapy.org/
 
-"Web Scraping with Python" Kitabı - Ryan Mitchell: Python kullanarak web scraping konusunda kapsamlı bir rehber arayanlar için bu kitap, temelden ileri düzeye kadar konuları ele alır.
+
+**"Web Scraping with Python" Kitabı - Ryan Mitchell** : Python kullanarak web scraping konusunda kapsamlı bir rehber arayanlar için bu kitap, temelden ileri düzeye kadar konuları ele alır.
+
 https://edu.anarcho-copy.org/Programming%20Languages/Python/Web%20Scraping%20with%20Python,%202nd%20Edition.pdf
 
 
-"Automate the Boring Stuff with Python" Kitabı - Al Sweigart: Bu kitap, Python programlamayı öğrenirken pratik beceriler kazanmayı amaçlar ve web scraping bölümü, bu konuya yeni başlayanlar için mükemmeldir.
+**Automate the Boring Stuff with Python" Kitabı - Al Sweigart** : Bu kitap, Python programlamayı öğrenirken pratik beceriler kazanmayı amaçlar ve web scraping bölümü, bu konuya yeni başlayanlar için mükemmeldir.
+
 https://github.com/thisisreallife/automate-the-boring-stuff-with-python/blob/master/Al%20Sweigart%20-%20Automate%20the%20Boring%20Stuff%20with%20Python_%20Practical%20Programming%20for%20Total%20Beginners-No%20Starch%20Press%20(2015).pdf
 
+
+**Scraping with Web Scraper**
+
+Link: https://docs.apify.com/academy/apify-scrapers/web-scraper
+
+**The Beginners Guide to Web Scraping**
+
+Link: https://apify.com/img/web-scraping/beginners-guide-to-web-scraping.pdf
+
+### Medium İçerikler
+
+-  **Web Scraping with Python using BeautifulSoup**
+
+    https://medium.com/technofunnel/web-scraping-with-python-using-beautifulsoup-76b710e3e92f
+
+-  **Introduction to Scraping in Python with BeautifulSoup & Requests** 
+
+    https://medium.datadriveninvestor.com/introduction-to-scraping-in-python-with-beautifulsoup-and-requests-ab7b1c9bc113
+
+-  **BeautifulSoup Articles - Blogs**
+
+    https://towardsdatascience.com/tagged/beautifulsoup
+
 Bu kaynaklar, web scraping'in temellerini öğrenmek, Python ile web scraping yapma tekniklerini keşfetmek ve web scraping'in yasal yönleri hakkında bilgi sahibi olmak için mükemmel başlangıç noktalarıdır.
+
+## Kurs Hakkında
+
+**Beautiful Soup ve Selenium ile Web Scraping**
+
+Bu eğitim, web sitelerinden veri çekmeyi, bu verileri düzenleyip analiz etmeyi ve sonuçta elde edilen bilgilerle daha iyi kararlar almayı öğretir. Böylece, internetin sunduğu geniş veri kaynaklarından en iyi şekilde yararlanmayı ve rekabet avantajı kazanmayı amaçlar.
+
+https://miuul.com/web-scraping  
 
 
